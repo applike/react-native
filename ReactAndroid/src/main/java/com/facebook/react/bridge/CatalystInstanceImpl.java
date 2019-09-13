@@ -206,7 +206,7 @@ public class CatalystInstanceImpl implements CatalystInstance {
   @Override
   public void setSourceURLs(String deviceURL, String remoteURL) {
     mSourceURL = deviceURL;
-    jniSetSourceURL(remoteURL);
+    jniSetSourceURL(deviceURL);
   }
 
   @Override
